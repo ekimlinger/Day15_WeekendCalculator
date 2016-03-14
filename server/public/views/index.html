@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Evan's Awesome Calculator</title>
-    <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css" />
     <script type="text/javascript" src="vendors/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/scripts/app.js"></script>
+    <script type="text/javascript" src="assets/scripts/app.min.js"></script>
   </head>
   <body>
-    <div class="container">
+    <div class="container jumbotron">
+      <img id="prime" src="images/prime-logo.png" />
+      <img id="kappa" src="images/kappa.png" />
       <h1>Evan's Awesome Calculator Application</h1>
     </div>
     <div class="calculator">
@@ -30,6 +32,7 @@
       <button class="btn number 2">2</button>
       <button class="btn number 3">3</button>
       <button class="btn sign">-</button>
+      <button class="btn decimal">.</button>
       <button class="btn number zero">0</button>
       <button class="btn equals">=</button>
 

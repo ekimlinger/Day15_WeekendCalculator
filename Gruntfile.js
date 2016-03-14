@@ -15,10 +15,18 @@ module.exports = function(grunt){
         expand: true,
         cwd: "node_modules",
         src: [
-          "bootstrap/dist/css/bootstrap.min.css"
-          "jquery/dist/jquery.min.js"
+          "jquery/dist/jquery.min.js",
         ],
         dest: "server/public/vendors/"
+      },
+      bootstrap: {
+        expand: true,
+        cwd: "node_modules/bootstrap/dist/css/",
+        src: [
+          "bootstrap.min.css",
+          "bootstrap.min.css.map"
+        ],
+        dest: "server/public/vendors/bootstrap"
       }
     }
   });

@@ -2,6 +2,18 @@ body{
   background: rgb(50,50,50);
   text-align: center;
 }
+.jumbotron{
+  padding: auto 10px;
+}
+.jumbotron img{
+  height: 80px;
+}
+#prime{
+  float: left;
+}
+#kappa{
+  float: right;
+}
 .model{
   margin: 0;
   text-shadow: black 1.5px 1.5px;
@@ -15,7 +27,9 @@ body{
   background: peru;
   padding: 8px;
   border-radius: 8px;
+  border: outset 2px;
   box-shadow: black 10px 10px;
+
 }
 h1{
   color:white;
@@ -28,6 +42,7 @@ h2{
   color:black;
   width: 430px;
   overflow: hidden;
+  border: inset rgb(121,76,32) 5px;
 }
 .btn {
   font-size: 30px;
@@ -42,5 +57,5 @@ h2{
   width: 316px;
 }
 .zero{
-  width: 316px;
+  width: 210px;
 }
