@@ -1,0 +1,46 @@
+body{
+  background: rgb(50,50,50);
+  text-align: center;
+}
+.model{
+  margin: 0;
+  text-shadow: black 1.5px 1.5px;
+}
+.greek{
+  font-size: 50px;
+}
+.calculator{
+  margin:auto;
+  width:450px;
+  background: peru;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: black 10px 10px;
+}
+h1{
+  color:white;
+}
+h2{
+  text-align: right;
+  padding: 0 20px;
+  margin: 16px auto;
+  background-color: white;
+  color:black;
+  width: 430px;
+  overflow: hidden;
+}
+.btn {
+  font-size: 30px;
+  width: 100px;
+  margin: 5px 2px;
+  box-shadow: rgb(100,100,100) 3px 2px;
+}
+.number{
+  background-color: rgb(230,230,230);
+}
+.clear{
+  width: 316px;
+}
+.zero{
+  width: 316px;
+}
